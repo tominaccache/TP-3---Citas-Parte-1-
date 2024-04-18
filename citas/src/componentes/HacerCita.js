@@ -3,7 +3,7 @@ import './HacerCita.css';
 
 function HacerCita() {
   return (
-    <div>
+    <div class="one-half column">
       <form >
         <label>Nombre Mascota</label>
         <input type="text" name="mascota" className="u-full-width" value="" />
