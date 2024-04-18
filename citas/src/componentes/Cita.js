@@ -3,7 +3,7 @@ import './Cita.css';
 
 function Cita ({cita}) {
   return (
-    <div class="one-half column"> 
+    <div> 
     
     <div className="cita">
       <p>Mascota: <span>{cita.mascota}</span></p>

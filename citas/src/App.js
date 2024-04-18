@@ -4,7 +4,6 @@ import './index.css';
 import HacerCita from './componentes/HacerCita';
 import ListaCitas from './componentes/ListaCitas';
 import Titulo from './componentes/Titulo';
-import Subtitulo from './componentes/Subtitulo';
 
 
 function App() {
@@ -17,12 +16,11 @@ function App() {
   return (
     <div className="App">
       <Titulo />
-      <Subtitulo texto="Crear mi cita" />
+      
       <div className="container">
         
         <div className="row">
           <HacerCita />
-          <Subtitulo texto="Administra tus cita" />
           <ListaCitas citas={citasIniciales} />
         </div>
       </div>
